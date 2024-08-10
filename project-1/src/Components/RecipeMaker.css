@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Search Box Styles */
+  .search-box {
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Container Styles */
+  .md {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #e2d4d4;
+    border: 1px solid #e0d8d8;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(19, 5, 5, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .card h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card h5 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .Ingredients, .Instructions {
+    text-align: left;
+  }
+  
+  details {
+    margin: 10px 0;
+  }
+  
+  details summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  details ul, details ol {
+    margin: 0;
+    padding-left: 20px;
+  }
+  
+  h4 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%;
+      max-width: none;
+    }
+  }
+  
